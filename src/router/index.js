@@ -6,7 +6,7 @@ import Layout from '../layout'
 import i18n from '../lang'
 
 Vue.use(Router);
-
+NProgress.configure({showSpinner: false});
 const app_title = i18n.t('app.name');
 
 // 2. 定义路由
